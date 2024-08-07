@@ -4,7 +4,7 @@ import { GlareCard } from "./ui/glarecard";
 
 export async function LumiNiftyDemo() {
   return (
-    <div className="h-full w-full pl-20 pr-20 pt-8 bg-[#111a22] grid grid-cols-1 md:grid-cols-2 gap-10">
+    <div className="h-full w-full pl-20 pr-20 pt-8 bg-[#111a22] grid grid-cols-1 md:grid-cols-2 gap-10 pb-16">
       <div className="flex flex-col items-start justify-center">
         <BoxReveal boxColor={"#00FFF1"} duration={0.5}>
           <p className="text-[3.5rem] font-semibold">

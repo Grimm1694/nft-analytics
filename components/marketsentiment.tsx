@@ -2,7 +2,7 @@ import React from 'react';
 
 const NFTMarketSentiment = () => {
   return (
-    <div className="flex min-w-72 flex-1 flex-col gap-2 bg-[#111a22] pl-20 pr-20 pt-16">
+    <div className="flex min-w-72 flex-1 flex-col gap-2 bg-[#111a22] pb-10 pl-20 pr-20 pt-16">
       <p className="text-white text-base font-medium leading-normal">NFT Market Sentiment (7 days)</p>
       <div className="grid min-h-[180px] grid-flow-col gap-6 grid-rows-[1fr_auto] items-end justify-items-center px-3">
         <div className="border-[#93adc8] bg-[#243647] border-t-2 w-full" style={{ height: '20%' }}></div>
